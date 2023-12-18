@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"
+        conetent="IE=edge">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>MedProSync</title>
+
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <header>
+        <div class="header-content">
+            <h2>Welcome to the first Romanian application that facilitates your scheduling and remote consultations</h2>
+            <div class="line"></div>
+            <h1>We care about your life</h1>
+            <a href="" class="ctn">Learn More</a>
+        </div>
+        </header>
+    <body>
+        <nav class="navbar">
+            <h1 class="logo">MedProSync</h1>
+            <u1 class="nav-links">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="active1"><a href="#">Chat</a></li>
+                <li class="active2"><a href="#">Blog</a></li>
+                <li class="ctn"><a href="#">About</a></li>
+            </u1>
+        </nav>
+        
+        <div class="registration-container">
+            <h2>Create an Account</h2>
+            <form id="registrationForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+    
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+    
+                <button type="button" class="ctn" onclick="registerUser()">Register</button>
+
+            </form>
+    
+            <p>Already have an account? <a href="login.html">Log in here</a></p>
+        </div>
+    
+        <script src="./script.js"></script>
+        
+    </body>
+</html>

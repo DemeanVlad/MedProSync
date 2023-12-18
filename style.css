@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+u1{
+    list-style: none;
+}
+
+.active{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.active1{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.active2{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navbar{
+    position: absolute;
+    top:0;
+    left:0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+
+}
+
+.logo{
+    color: #657984;
+    padding: 30px 0;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+}
+
+.nav-links li a {
+    color: #657984; 
+}
+
+.registration-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: left;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-container h2 {
+    color: #657984;
+}
+
+.registration-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #657984;
+}
+
+.registration-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.registration-container button {
+    padding: 10px 20px;
+    background-color: #DCC7AA;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.registration-container button:hover {
+    background-color: #c2b79e;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./Images/ii1.jpg);
+    background-color: #212425;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+
+.header-content{
+    text-align: 150px;
+    color: #505a74; 
+    text-align:center;
+
+}
+
+/* ca sa fie responsive*/
+
+.header-content h2{
+    font-size: 4vmin;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: #DCC7AA;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1{
+    font-size: 7vmin;
+    margin-top:  120px;
+    margin-bottom: 120px;
+}
+
+.ctn{
+    padding:  8px 15px;
+    background-color: #DCC7AA;
+    border-radius: 85px;
+    color: black;
+}
